@@ -1,0 +1,36 @@
+@import "../../varibles.scss";
+
+.users {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  width: 100%;
+  border: 2px solid $con-green;
+  padding: 20px;
+  .user-card {
+    border: 2px solid $con-green;
+    border-radius: 10px;
+    background: $con-white;
+    min-width: 250px;
+    .user {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .buttons {
+          margin: 10px 0 10px 0;
+        }
+      }
+      .name {
+        font-size: 20px;
+        font-weight: 700;
+        color: $con-green;
+      }
+    }
+  }
+}

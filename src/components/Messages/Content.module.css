@@ -1,0 +1,22 @@
+.content {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    background: aliceblue;
+    color: black;
+}
+
+.dialogs {
+    padding: 10px;
+}
+
+.dialog{
+
+}
+
+.messages{
+    padding: 10px;
+}
+
+.message {
+
+}

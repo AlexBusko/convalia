@@ -1,0 +1,37 @@
+@import "../../varibles.scss";
+
+.ant-layout-sider-light {
+  background-color: $con-green;
+  .ant-menu-light {
+    background-color: $con-green;
+    border: none;
+    .ant-menu-item {
+      .menu-icon {
+        font-size: 20px;
+        color: $con-white;
+      }
+      a {
+        color: $con-white;
+      }
+      &::after {
+        border-right: 2px solid $con-green;
+        right: 1px;
+      }
+    }
+
+    .ant-menu-item-selected {
+      background-color: $con-white;
+      a {
+        color: $con-green;
+      }
+      .menu-icon {
+        color: $con-green;
+      }
+    }
+  }
+  .ant-layout-sider-trigger {
+    color: $con-white;
+    background: $con-green;
+    font-size: 20px;
+  }
+}

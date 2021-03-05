@@ -1,0 +1,47 @@
+@import "../../../varibles.scss";
+
+.pageNumber {
+  border: 2px solid $con-green;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+.selectedPage {
+  font-weight: bold;
+  color: $con-white;
+  background-color: $con-green;
+}
+.paginator {
+  color: $con-green;
+  margin-bottom: 20px;
+}
+
+.prev-button {
+  font-weight: 700;
+  border-radius: 5px;
+  background-color: $con-white;
+  color: $con-green;
+  border: 2px solid $con-green;
+  &:active,
+  &:focus,
+  &:hover {
+    background-color: $con-green;
+    color: $con-white;
+    border: 2px solid $con-green;
+  }
+}
+
+.next-button {
+  font-weight: 700;
+  border-radius: 5px;
+  background-color: $con-green;
+  color: $con-white;
+  border: none;
+  &:active,
+  &:focus,
+  &:hover {
+    background-color: $con-green;
+    color: $con-white;
+    border: none;
+  }
+}

@@ -1,0 +1,45 @@
+@import "../../varibles.scss";
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  color: $con-white;
+  background: $con-green;
+}
+
+.logo {
+  color: $con-white;
+  font-size: 40px;
+  font-weight: bolder;
+  float: bottom;
+}
+
+.header-container {
+  display: flex;
+  .price {
+    padding: 0 20px;
+    font-weight: bolder;
+  }
+  .loginBlock {
+    font-size: 18px;
+    float: right;
+    .login-btn {
+      color: $con-white;
+      border: 2px solid $con-white;
+      border-radius: 3px;
+    }
+    .logout-btn {
+      margin-left: 10px;
+      color: $con-green;
+      border: none;
+      border-radius: 3px;
+      background-color: $con-white;
+    }
+  }
+
+  .loginBlock a {
+    color: aliceblue;
+    margin-right: 10px;
+  }
+}

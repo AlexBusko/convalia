@@ -1,0 +1,28 @@
+.mono-card {
+  border: none;
+  background-color: #000;
+  border-radius: 10px;
+  min-width: 225px;
+  min-height: 182px;
+
+  .name {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    text-decoration: italic;
+    font-weight: bolder;
+    color: white;
+  }
+  .price {
+    font-size: 30px;
+    text-align: center;
+    line-height: 25px;
+    font-weight: bolder;
+    color: white;
+  }
+  .time {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+  }
+}
